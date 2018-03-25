@@ -1,0 +1,82 @@
+footer {
+    background-color: gold;
+    padding: 20px;
+    width: auto;
+}
+
+body {
+    background: white url(https://upload.wikimedia.org/wikipedia/commons/1/16/Galactic_Metropolis.jpg) repeat;
+    text-align: center;
+    width: auto;
+    }
+
+h1 {
+    color: red;
+    font-family: "Franklin Gothic Heavy";
+    padding: 15px;
+
+}
+
+h2 {
+    color: blue;
+    font-family: Aharoni;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 43%;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+
+}
+
+h3 {
+    color: aqua;
+    background-color: blue;
+    font-family: "Franklin Gothic Heavy";
+}
+
+p   {
+    color: white;
+    display: block;
+    padding: 20px 50px;
+    }
+
+p:first-letter {
+    font-size: 24px;
+}
+
+#zen-intro {
+    margin: 20px;
+}
+
+#zen-summary {
+    background-color: red;
+    margin: 100px;
+}
+
+#zen-preamble {
+    margin: 20px 20px 20px 20px;
+}
+
+#design-selection, #design-archives, #zen-resources {
+    background-color: green;
+    position: absolute;
+    left: 20%;
+    height: auto;
+    border: 20px solid black;
+}
+
+#design-selection {
+    left: 10%;
+}
+
+#design-archives {
+    left: 40%;
+}
+
+#zen-resources {
+    left: 70%;
+}
